@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/home", (req, res) => {
-  res.send("<h1>Home</h1>");
+  res.send("<h1>Party</h1>");
 });
 
 app.listen(process.env.PORT, () => {
